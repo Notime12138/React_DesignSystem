@@ -1,0 +1,90 @@
+.select-label {
+  width: 295px;
+  height: 20px;
+
+  /* Text Body/Mention/XS/Regular */
+
+  font-family: "Wotfard";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  &.select-false {
+    /* Core/text/normal-dark */
+    color: $text-normal-dark;
+  }
+
+  &.select-true {
+    /* Core/text/disabled-dark */
+    color: $text-disabled-dark;
+  }
+}
+
+.select-custom {
+  gap: 8px;
+  border: 1px solid $line-normal;
+  font-size: 16px;
+  line-height: 24px;
+  &:hover {
+    box-shadow: 0px 0px 0px 2px $primary-background;
+    border-color: $primary-active-text;
+  }
+}
+.select-custom-md {
+  padding: 4px 12px;
+}
+.select-custom-lg {
+  padding: 8px 12px;
+}
+
+.select-options {
+  display: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+.select-icon-close {
+  color: $primary-default;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  position: relative;
+  left: -34px;
+  & svg {
+    vertical-align: middle !important;
+    margin-bottom: 3px;
+  }
+}
+
+.select-hint {
+  gap: 8px;
+  font-size: 12px;
+  line-height: 20px;
+  & svg {
+    vertical-align: middle !important;
+    margin-bottom: 3px;
+  }
+}
+
+.select-hint-normal {
+  color: $primary-active-text;
+}
+.select-hint-negative {
+  color: $negative-active;
+}
+.select-hint-positive {
+  color: $positive-active;
+}

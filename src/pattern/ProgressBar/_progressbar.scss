@@ -1,0 +1,19 @@
+.bar-container {
+  width: 334px;
+  height: 8px;
+  border-radius: 3px;
+  background-color: $text-disabled-light;
+}
+
+.bar-filler {
+  height: inherit;
+  border-radius: inherit;
+  background-color: $primary-default;
+  transition: width 1s ease-in-out;
+  &.bar-filler-disabled {
+    background-color: $text-disabled-light;
+  }
+  &.bar-filler-success {
+    background-color: $positive-default;
+  }
+}

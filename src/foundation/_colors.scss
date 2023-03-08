@@ -1,0 +1,227 @@
+//Primitives Palette
+//FTLDS Blue
+$ftlds-blue-50: #ecf3ff !default;
+$ftlds-blue-100: #c1d9ff !default;
+$ftlds-blue-200: #96bfff !default;
+$ftlds-blue-300: #6ba4ff !default;
+$ftlds-blue-400: #408aff !default;
+$ftlds-blue-500: #2c72e1 !default;
+$ftlds-blue-600: #1a5abf !default;
+$ftlds-blue-700: #0d459d !default;
+$ftlds-blue-800: #03317b !default;
+$ftlds-blue-900: #002259 !default;
+//GRAY
+$gray-50: #f9f9fa !default;
+$gray-100: #eceef0 !default;
+$gray-200: #dee1e6 !default;
+$gray-300: #cfd3da !default;
+$gray-400: #bfc4cd !default;
+$gray-500: #acb4bf !default;
+$gray-600: #97a0af !default;
+$gray-700: #7f8a9c !default;
+$gray-800: #636d7d !default;
+$gray-900: #3a4049 !default;
+//BLUE
+$blue-50: #f7fafe !default;
+$blue-100: #e6eefb !default;
+$blue-200: #d3e2f9 !default;
+$blue-300: #bfd5f6 !default;
+$blue-400: #a8c6f3 !default;
+$blue-500: #8eb5ef !default;
+$blue-600: #71a1eb !default;
+$blue-700: #4b89e5 !default;
+$blue-800: #2869cc !default;
+$blue-900: #183e78 !default;
+//INDIGO
+$indigo-50: #f9f9fe !default;
+$indigo-100: #edecfc !default;
+$indigo-200: #e1defa !default;
+$indigo-300: #d3cff8 !default;
+$indigo-400: #c3bdf6 !default;
+$indigo-500: #b2abf3 !default;
+$indigo-600: #9e95f0 !default;
+$indigo-700: #857aec !default;
+$indigo-800: #6455e7 !default;
+$indigo-900: #3123b1 !default;
+//VIOLET
+$violet-50: #fcf8fe !default;
+$violet-100: #f5eafc !default;
+$violet-200: #eddada !default;
+$violet-300: #e5c9f7 !default;
+$violet-400: #dcb6f5 !default;
+$violet-500: #d1a0f1 !default;
+$violet-600: #c486ee !default;
+$violet-700: #b565e9 !default;
+$violet-800: #9d33e2 !default;
+$violet-900: #5e1b8a !default;
+//FUSCHIA
+$fuschia-50: #fef8fd !default;
+$fuschia-100: #fce8fa !default;
+$fuschia-200: #f9d6f6 !default;
+$fuschia-300: #f6c3f1 !default;
+$fuschia-400: #f3adec !default;
+$fuschia-500: #f093e6 !default;
+$fuschia-600: #eb72df !default;
+$fuschia-700: #e441d4 !default;
+$fuschia-800: #bc25ad !default;
+$fuschia-900: #701667 !default;
+//PINK
+$pink-50: #fef8fa !default;
+$pink-100: #fce9f0 !default;
+$pink-200: #f9d8e5 !default;
+$pink-300: #f7c6d9 !default;
+$pink-400: #f4b1cc !default;
+$pink-500: #f099bc !default;
+$pink-600: #ec7ba8 !default;
+$pink-700: #e7538e !default;
+$pink-800: #ca2768 !default;
+$pink-900: #78183e !default;
+//RED
+$red-50: #fef8f7 !default;
+$red-100: #fceae8 !default;
+$red-200: #f9dad6 !default;
+$red-300: #f6c8c3 !default;
+$red-400: #f3b4ee !default;
+$red-500: #f09e95 !default;
+$red-600: #ec8276 !default;
+$red-700: #e65c4d !default;
+$red-800: #c73727 !default;
+$red-900: #762117 !default;
+//ORANGE
+$orange-50: #fdf9f2 !default;
+$orange-100: #f9ecd7 !default;
+$orange-200: #f5deba !default;
+$orange-300: #f1ce99 !default;
+$orange-400: #ebbc75 !default;
+$orange-500: #e5a74a !default;
+$orange-600: #d6922a !default;
+$orange-700: #b87d24 !default;
+$orange-800: #91631c !default;
+$orange-900: #553a11 !default;
+//YELLOW
+$yellow-50: #f9fbe5 !default;
+$yellow-100: #ecf3ac !default;
+$yellow-200: #ddea69 !default;
+$yellow-300: #ccde2b !default;
+$yellow-400: #bdce28 !default;
+$yellow-500: #adbc25 !default;
+$yellow-600: #9aa821 !default;
+$yellow-700: #85901c !default;
+$yellow-800: #697216 !default;
+$yellow-900: #3d430d !default;
+//GREEN
+$green-50: #f0fdf1 !default;
+$green-100: #cef8d2 !default;
+$green-200: #a7f2ae !default;
+$green-300: #75eb81 !default;
+$green-400: #2ee140 !default;
+$green-500: #28ce39 !default;
+$green-600: #24b833 !default;
+$green-700: #1f9e2c !default;
+$green-800: #187d22 !default;
+$green-900: #0e4a14 !default;
+//TEAL
+$teal-50: #eefdf7 !default;
+$teal-100: #cef8d2 !default;
+$teal-200: #a7f2ae !default;
+$teal-300: #75eb81 !default;
+$teal-400: #2ee140 !default;
+$teal-500: #28cb8a !default;
+$teal-600: #23b57b !default;
+$teal-700: #1e9c6a !default;
+$teal-800: #187b54 !default;
+$teal-900: #0e4831 !default;
+//CYAN
+$cyan-50: #f0fcfd !default;
+$cyan-100: #d0f4f8 !default;
+$cyan-200: #abecf3 !default;
+$cyan-300: #7fe2ed !default;
+$cyan-400: #49d6e5 !default;
+$cyan-500: #2ac4d6 !default;
+$cyan-600: #25afbf !default;
+$cyan-700: #2097a4 !default;
+$cyan-800: #197781 !default;
+$cyan-900: #0f464c !default;
+
+// UI Color Palette
+//Brand
+$primary-default: $ftlds-blue-500 !default;
+$primary-hover: $ftlds-blue-900 !default;
+$primary-active-text: $ftlds-blue-700 !default;
+$primary-background: $ftlds-blue-100 !default;
+//Functional Color
+$informative-default: $blue-700 !default;
+$informative-hover: $blue-900 !default;
+$informative-active: $blue-800 !default;
+$informative-background: $blue-100 !default;
+
+$notice-default: $orange-700 !default;
+$notice-hover: $orange-900 !default;
+$notice-active: $orange-800 !default;
+$notice-background: $orange-100 !default;
+
+$negative-default: $red-700 !default;
+$negative-hover: $red-900 !default;
+$negative-active: $red-800 !default;
+$negative-background: $red-100 !default;
+
+$positive-default: $teal-700 !default;
+$positive-hover: $teal-900 !default;
+$positive-active: $teal-800 !default;
+$positive-background: $teal-100 !default;
+
+//Core
+$text-heavy-dark: $gray-900 !default;
+$text-normal-dark: $gray-800 !default;
+$text-light-dark: $gray-700 !default;
+$text-disabled-dark: $gray-500 !default;
+
+$text-heavy-light: $gray-50 !default;
+$text-normal-light: $gray-100 !default;
+$text-light-light: $gray-200 !default;
+$text-disabled-light: $gray-300 !default;
+
+$background-disabled: $gray-100 !default;
+$background-base: $gray-50 !default;
+$background-original: white !default;
+
+$line-heavy: $gray-400 !default;
+$line-normal: $gray-300 !default;
+$line-light: $gray-200 !default;
+
+//Accents
+$accents-indigo: $indigo-600 !default;
+$accents-violet: $violet-600 !default;
+$accents-fuschia: $fuschia-600 !default;
+$sccents-pink: $pink-600 !default;
+$accents-yellow: $yellow-600 !default;
+$accents-green: $green-600 !default;
+$accents-cyan: $cyan-600 !default;
+
+//Tags
+$tag-indigo-light: $indigo-300 !default;
+$tag-violet-light: $violet-300 !default;
+$tag-fuschia-light: $fuschia-300 !default;
+$tag-pink-light: $pink-300 !default;
+$tag-yellow-light: $yellow-300 !default;
+$tag-green-light: $green-300 !default;
+$tag-cyan-light: $cyan-300 !default;
+$tag-default-light: $gray-50 !default;
+
+$tag-indigo-dark: $indigo-800 !default;
+$tag-violet-dark: $violet-800 !default;
+$tag-fuschia-dark: $fuschia-800 !default;
+$tag-pink-dark: $pink-800 !default;
+$tag-yellow-dark: $yellow-800 !default;
+$tag-green-dark: $green-800 !default;
+$tag-cyan-dark: $cyan-800 !default;
+$tag-default-dark: $gray-900 !default;
+
+//Data visualization
+$data-visualization-indigo: $indigo-700 !default;
+$data-visualization-violet: $violet-700 !default;
+$data-visualization-fuschia: $fuschia-700 !default;
+$data-visualization-pink: $pink-700 !default;
+$data-visualization-yellow: $yellow-700 !default;
+$data-visualization-green: $green-700 !default;
+$data-visualization-cyan: $cyan-700 !default;

@@ -1,0 +1,42 @@
+.emptystate {
+  gap: 24px;
+}
+
+.emptystate-icon {
+  text-align: center;
+}
+
+.emptystate-false {
+  width: 632px;
+  padding: 24px 32px;
+}
+
+.emptystate-true {
+  width: 332px;
+  padding: 24px 20px;
+}
+
+.emptystate-text-container {
+  //gap: 16px;
+  text-align: center;
+  .emptystate-text-title {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: $text-heavy-dark;
+    margin-bottom: 16px;
+  }
+  .emptystate-text-content {
+    font-size: 16px;
+    line-height: 24px;
+    color: $text-normal-dark;
+  }
+}
+
+.emptystate-buttons {
+  margin: auto;
+  gap: 16px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}

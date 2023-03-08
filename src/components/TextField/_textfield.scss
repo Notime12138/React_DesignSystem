@@ -1,0 +1,78 @@
+.textField-label {
+  width: 295px;
+  height: 20px;
+
+  /* Text Body/Mention/XS/Regular */
+
+  font-family: "Wotfard";
+  font-style: normal;
+  /* identical to box height, or 167% */
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 0;
+
+  &.textField-false {
+    /* Core/text/normal-dark */
+    color: $text-normal-dark;
+  }
+
+  &.textField-true {
+    /* Core/text/disabled-dark */
+    color: $text-disabled-dark;
+  }
+}
+
+.textField-input {
+  gap: 8px;
+  border: 1px solid $line-normal;
+  margin-bottom: 0;
+  &:hover {
+    box-shadow: 0px 0px 0px 2px $primary-background;
+    border-color: $primary-active-text;
+  }
+}
+.textField-input-md {
+  padding: 4px 12px;
+}
+.textField-input-lg {
+  padding: 8px 12px;
+}
+
+.textField-icon-close {
+  color: $primary-default;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  position: relative;
+  left: -20px;
+  & svg {
+    vertical-align: middle !important;
+    margin-bottom: 3px;
+  }
+}
+
+.textField-hint {
+  gap: 8px;
+  margin-bottom: 0;
+  & svg {
+    vertical-align: middle !important;
+    margin-bottom: 3px;
+  }
+}
+
+.textField-hint-normal {
+  color: $primary-active-text;
+}
+.textField-hint-negative {
+  color: $negative-active;
+}
+.textField-hint-positive {
+  color: $positive-active;
+}

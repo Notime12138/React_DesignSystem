@@ -1,0 +1,33 @@
+.badge-custom {
+  padding: 2px 6px 2px 6px;
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: center;
+  white-space: nowrap;
+}
+
+.badge-dark-informative {
+  background-color: $primary-active-text;
+  color: white;
+}
+.badge-dark-positive {
+  background-color: $positive-active;
+  color: white;
+}
+.badge-dark-negative {
+  background-color: $negative-active;
+  color: white;
+}
+
+.badge-light-informative {
+  background-color: $primary-background;
+  color: $informative-active;
+}
+.badge-light-positive {
+  background-color: $positive-background;
+  color: $positive-active;
+}
+.badge-light-negative {
+  background-color: $negative-background;
+  color: $negative-active;
+}

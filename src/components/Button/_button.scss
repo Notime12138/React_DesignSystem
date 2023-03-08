@@ -1,0 +1,141 @@
+.button-primary-default {
+  background-color: $primary-default;
+  color: white;
+  border-width: 0;
+}
+.button-primary-default:hover {
+  background-color: $primary-hover;
+}
+.button-primary-default:focus {
+  background-color: $primary-default;
+  box-shadow: 0px 0px 0px 2px $ftlds-blue-100;
+}
+// for icons
+.button-primary-default--default {
+  stroke: white;
+}
+.button-primary-default--disable {
+  stroke: $text-disabled-light;
+}
+
+.button-primary-critical {
+  background-color: $negative-default;
+  color: white;
+  border-width: 0;
+}
+.button-primary-critical:hover {
+  background-color: $negative-hover;
+}
+.button-primary-critical:focus {
+  background-color: $negative-active;
+  box-shadow: 0px 0px 0px 2px $negative-background;
+}
+// for icons
+.button-primary-critical--default {
+  stroke: white;
+}
+.button-primary-critical--disable {
+  stroke: $text-disabled-light;
+}
+
+.button-secondary-default {
+  background-color: $background-original;
+  border-width: 1px;
+  border-color: $line-heavy;
+  color: $primary-default;
+}
+.button-secondary-default:hover {
+  background-color: $primary-background;
+  border-color: $primary-hover;
+  color: $primary-hover;
+}
+.button-secondary-default:focus {
+  background-color: white;
+  box-shadow: 0px 0px 0px 2px $primary-active-text;
+  color: $primary-active-text;
+}
+// for icons
+.button-secondary-default--default {
+  stroke: $primary-default;
+}
+.button-secondary-default--disable {
+  stroke: $text-disabled-light;
+}
+
+.button-secondary-critical {
+  background-color: $background-original;
+  border-width: 1px;
+  border-color: $line-heavy;
+  color: $negative-default;
+}
+.button-secondary-critical:hover {
+  background-color: $negative-background;
+  border-color: $negative-hover;
+  color: $negative-hover;
+}
+.button-secondary-critical:focus {
+  background-color: white;
+  box-shadow: 0px 0px 0px 2px $negative-background;
+  color: $negative-active;
+}
+// for icons
+.button-secondary-critical--default {
+  stroke: $negative-default;
+}
+.button-secondary-critical--disable {
+  stroke: $text-disabled-light;
+}
+
+button:disabled {
+  color: $text-disabled-light;
+  background-color: $background-disabled;
+  stroke: $text-disabled-light;
+  &:hover {
+    color: $text-disabled-light;
+    background-color: $background-disabled;
+    stroke: $text-disabled-light;
+  }
+}
+
+// size
+.button-sm {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 24px;
+  gap: 8px;
+}
+
+.button-md {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 4px 24px;
+  gap: 8px;
+}
+
+.button-lg {
+  font-size: 20px;
+  line-height: 32px;
+  padding: 4px 24px;
+  gap: 8px;
+}
+
+// icon
+.button-only-sm {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.button-only-md {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.button-only-lg {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+button {
+  & svg {
+    vertical-align: middle !important;
+    margin-bottom: 3px;
+  }
+}

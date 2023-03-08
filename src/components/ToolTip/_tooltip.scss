@@ -1,0 +1,28 @@
+.tooltip {
+  border-radius: 8px;
+  padding: 4px 8px;
+  gap: 10px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+//size
+.tooltip-md {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tooltip-sm {
+  font-size: 12px;
+  line-height: 20px;
+  padding: 8px 16px;
+}
+
+.tooltip-light {
+  color: $text-light-dark;
+  background-color: white;
+}
+
+.tooltip-dark {
+  color: white;
+  background-color: $primary-hover;
+}

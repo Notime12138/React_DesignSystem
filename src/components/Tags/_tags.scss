@@ -1,0 +1,65 @@
+.tags-click {
+  background-color: white;
+  border: 1px solid $line-heavy;
+  border-radius: 25px;
+  &:hover {
+    background-color: $primary-background;
+    border-color: $primary-hover;
+  }
+  &:focus {
+    background-color: $tag-default-light !important;
+    border-color: $primary-active-text;
+    box-shadow: 0px 0px 0px 2px $primary-background;
+  }
+}
+.tags-status {
+  background-color: $positive-background;
+  pointer-events: none;
+  border-radius: 25px;
+}
+.tags-parameter {
+  background-color: $positive-background;
+  pointer-events: none;
+  border-radius: 25px;
+  color: white;
+}
+.tags-personalisation {
+  background-color: $positive-background;
+  pointer-events: none;
+  border-radius: 4px;
+}
+
+// size
+.tags-sm {
+  gap: 4px;
+  padding: 0px 8px 0px 8px;
+}
+.tags-md {
+  gap: 8px;
+  padding: 4px 16px 4px 16px;
+}
+.tags-lg {
+  gap: 8px;
+  padding: 8px 16px 8px 16px;
+}
+
+//text
+.tags-text--sm {
+  font-size: 12px;
+  line-height: 20px;
+}
+.tags-text--md {
+  font-size: 16px;
+  line-height: 24px;
+}
+.tags-text--lg {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tags {
+  & svg {
+    vertical-align: middle !important;
+    margin-bottom: 3px;
+  }
+}

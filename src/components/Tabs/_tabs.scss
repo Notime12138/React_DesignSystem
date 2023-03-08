@@ -1,0 +1,45 @@
+.tabs {
+  width: 600px;
+}
+
+.tabElements {
+  padding: 0px 0px 0px 16px;
+}
+
+.tabElement {
+  padding: 8px 0px 8px 0px;
+  gap: 8px;
+  color: $text-normal-dark;
+  text-decoration: none;
+  margin-right: 16px;
+  flex-grow: 1;
+  justify-items: center;
+  &:hover {
+    color: black;
+    box-shadow: inset 0px -3px black;
+  }
+  &:focus {
+    color: $primary-default;
+    box-shadow: inset 0px -3px $primary-default;
+  }
+}
+
+.tabElement-md {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.tabElement-lg {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.tabs {
+  & svg {
+    vertical-align: middle !important;
+    margin-bottom: 3px;
+  }
+  & hr {
+    margin-top: 0;
+  }
+}

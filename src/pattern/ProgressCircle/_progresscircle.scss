@@ -1,0 +1,21 @@
+.circle-container {
+  cx: 100px;
+  cy: 100px;
+  fill: transparent;
+  stroke: $text-disabled-light;
+}
+
+.circle-filler {
+  cx: 100px;
+  cy: 100px;
+  fill: transparent;
+  stroke: $primary-default;
+  stroke-linecap: round;
+  transition: all 1s ease-in-out;
+  &.circle-filler-disabled {
+    stroke: $text-disabled-light;
+  }
+  &.circle-filler-success {
+    stroke: $positive-default;
+  }
+}

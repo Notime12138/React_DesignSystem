@@ -1,0 +1,30 @@
+.radio-text--sm {
+  font-size: 14px;
+  line-height: 24px;
+}
+.radio-text--md {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.checkbox-box {
+  vertical-align: middle;
+  margin-top: 0;
+}
+
+.radio-box--sm {
+  height: 16px;
+  width: 16px;
+  margin-right: 12px;
+  margin-bottom: 3px;
+}
+.radio-box--md {
+  height: 24px;
+  width: 24px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.radio-true {
+  color: $text-disabled-dark;
+}

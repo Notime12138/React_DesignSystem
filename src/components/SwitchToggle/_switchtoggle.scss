@@ -1,0 +1,85 @@
+.switchToggle-input {
+  display: none;
+}
+// label
+.switchToggle-label {
+  position: relative;
+  display: inline-block;
+  background-color: $text-light-dark;
+  &::before {
+    content: " ";
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    top: 2px;
+  }
+}
+
+.switchToggle-input:hover + .switchToggle-label {
+  background-color: $text-normal-dark;
+}
+.switchToggle-label--md {
+  width: 32px;
+  height: 16px;
+  border-radius: 8px;
+  &::before {
+    width: 12px;
+    height: 12px;
+    left: 2.4px;
+  }
+}
+.switchToggle-label--lg {
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+  &::before {
+    width: 16px;
+    height: 16px;
+    left: 2px;
+  }
+}
+
+// checked
+.switchToggle-input:checked + .switchToggle-label {
+  background-color: $positive-active;
+  &:hover {
+    background-color: $positive-hover;
+  }
+}
+.switchToggle-input:checked {
+  + .switchToggle-label--md::before {
+    left: 17.8px;
+  }
+  + .switchToggle-label--lg::before {
+    left: 22px;
+  }
+}
+
+// two icons
+.switchToggle-check--md {
+  bottom: 50%;
+  left: 3px;
+}
+.switchToggle-check--lg {
+  bottom: 4px;
+  left: 3.5px;
+}
+
+.switchToggle-close--md {
+  bottom: 50%;
+  left: 5px;
+}
+.switchToggle-close--lg {
+  bottom: 4px;
+  left: 5px;
+}
+//disabled
+.switchToggle-input:disabled + .switchToggle-label {
+  background-color: $background-disabled;
+  &:hover {
+    background-color: $background-disabled;
+  }
+}

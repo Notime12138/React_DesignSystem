@@ -1,0 +1,56 @@
+.card-whole {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+.card-xs {
+  width: 334px;
+}
+.card-s {
+  width: 453px;
+}
+.card-m {
+  width: 692px;
+}
+.card-l {
+  width: 931px;
+}
+.card-xl {
+  width: 1408px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 16px;
+  gap: 24px;
+  & svg {
+    vertical-align: middle !important;
+    margin-bottom: 3px;
+  }
+}
+
+.card-icon-header-left {
+  color: $primary-default;
+  margin-right: 24px;
+}
+
+.card-header-right {
+  display: flex;
+  gap: 16px;
+  color: $primary-default;
+}
+
+.card-title-text {
+  color: $text-heavy-dark;
+}
+
+.card-body {
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0px 16px;
+}
+
+.card-footer {
+  padding: 8px 16px;
+  color: $text-light-dark;
+}
